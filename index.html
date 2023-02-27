@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <style>
      body {
-      background-color: #FFC94E;
+      background-color: #190c50;
       font-family: 'Schoolbell', cursive;
     }
     h1 {
@@ -60,14 +60,76 @@
 
 </head>
   <body>
-    <h1>Collect Information</h1>
+    <h1>Ready to become a <span style="color: #ff914d;">coding wizard? </span>fill in the form to <span style="color: #d7a2de;">start your</span> <span style="color: #ffde00;">journey to mastery!</h1>
+    
     <form id="information-form">
+      <a  href="https://edsquadskidcoders.com/?redirect=0" style="background-color: black; color: white; padding: 10px 20px; text-decoration: none;position: relative;top: 10px;left: 400px;">Go Back</a>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required><br>
+      <label for="country-code">Mobile Number:</label>
+
+      <div style="display: flex;">
+        <select style="width: 35%;" id="country-code" name="country-code">
+          <option value="+1">United States (+1)</option>
+          <option value="+1">Canada (+1)</option>
+          <option value="+44">United Kingdom (+44)</option>
+          <option value="+61">Australia (+61)</option>
+          <option value="+64">New Zealand (+64)</option>
+          <option value="+33">France (+33)</option>
+          <option value="+49">Germany (+49)</option>
+          <option value="+39">Italy (+39)</option>
+          <option value="+34">Spain (+34)</option>
+          <option value="+351">Portugal (+351)</option>
+          <option value="+30">Greece (+30)</option>
+          <option value="+31">Netherlands (+31)</option>
+          <option value="+32">Belgium (+32)</option>
+          <option value="+41">Switzerland (+41)</option>
+          <option value="+43">Austria (+43)</option>
+          <option value="+45">Denmark (+45)</option>
+          <option value="+46">Sweden (+46)</option>
+          <option value="+47">Norway (+47)</option>
+          <option value="+48">Poland (+48)</option>
+          <option value="+7">Russia (+7)</option>
+          <option value="+81">Japan (+81)</option>
+          <option value="+82">South Korea (+82)</option>
+          <option value="+86">China (+86)</option>
+          <option value="+852">Hong Kong (+852)</option>
+          <option value="+65">Singapore (+65)</option>
+          <option value="+60">Malaysia (+60)</option>
+          <option value="+62">Indonesia (+62)</option>
+          <option value="+63">Philippines (+63)</option>
+          <option value="+66">Thailand (+66)</option>
+          <option value="+84">Vietnam (+84)</option>
+          <option value="+91">India (+91)</option>
+          <option value="+92">Pakistan (+92)</option>
+          <option value="+880">Bangladesh (+880)</option>
+          <option value="+94">Sri Lanka (+94)</option>
+          <option value="+27">South Africa (+27)</option>
+          <option value="+20">Egypt (+20)</option>
+          <option value="+234">Nigeria (+234)</option>
+          <option value="+254">Kenya (+254)</option>
+          <option value="+255">Tanzania (+255)</option>
+          <option value="+256">Uganda (+256)</option>
+          <option value="+233">Ghana (+233)</option>
+          <option value="+225">Ivory Coast (+225)</option>
+          <option value="+237">Cameroon (+237)</option>
+          <option value="+221">Senegal (+221)</option>
+          <option value="+223">Mali (+223)</option>
+          <option value="+226">Burkina Faso (+226)</option>
+          <option value="+227">Niger (+227)</option>
+          <option value="+229">Benin (+229)</option>
+          <option value="+228">Togo (+228)</option>
+          <option value="+222">Mauritania (+222)</option>
+        </select>
+        
+        <!-- <label for="mobile-number">Mobile Number:</label> -->
+        <input type="tel" id="mobile-number" name="mobile-number" placeholder="Enter your mobile number" required>
+      </div>
+       
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required><br>
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" required><br>
+     
+      
       <label for="topic">Topic:</label>
       <select id="topic" name="topic" required>
         <option value="">--Select a topic--</option>
